@@ -1,2 +1,5 @@
-// Optional: you can add animations or effects later
-console.log("Portfolio loaded successfully!");
+function showMessage() {
+  const message = document.getElementById("msg");
+  message.textContent = "Thank you for visiting my portfolio!";
+  message.style.color = "green";
+}
